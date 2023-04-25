@@ -6,6 +6,20 @@
 ## Blog: https://moeclub.org
 ## Written By MoeClub.org
 
+## 新增对 Oracle AMD，Oracle ARM全面支持. 可支持从 Ubuntu, Oracle Linux 等系统网络重装.
+## 新增 -port 参数, 可更改默认SSH端口.
+## 以下系统已通过测试(其他自测):
+## Debian: 9, 10, 11;
+## Ubuntu: 18.04, 20.04;
+## CentOS: 6.10;
+## 以下平台已通过测试(其他自测):
+## Oracle、Do、Azure
+## 示例:
+## bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/xllxll/Note80/master/InstallNET.sh') -d 10 -v 64 -p "自定义root密码" -port "自定义ssh端口"
+## 这个一键脚本运行后 断线上不去了
+## 啥也不要管，等30到60分钟，再去连SSH就行了
+
+
 export tmpVER=''
 export tmpDIST=''
 export tmpURL=''
